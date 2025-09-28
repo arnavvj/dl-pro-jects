@@ -1,0 +1,20 @@
+﻿name: dl-projects
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - numpy
+  - matplotlib
+  - notebook
+  - ipykernel
+  - onnx
+  - onnxruntime
+  - pip:
+    - torch-tensorrt
